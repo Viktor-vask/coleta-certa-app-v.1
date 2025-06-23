@@ -1,0 +1,7 @@
+/* src/index.css */
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif; /* Nossa nova fonte! */
+  background-color: #f4f7f9; /* Um cinza bem claro para o fundo */
+  color: #333;
+}

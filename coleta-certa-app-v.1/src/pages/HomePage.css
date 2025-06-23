@@ -1,0 +1,158 @@
+/* src/pages/HomePage.css */
+.homepage-container {
+	max-width: 900px;
+	margin: 2rem auto;
+	padding: 1rem;
+}
+
+.loading-message {
+	text-align: center;
+	font-size: 1.2rem;
+	padding: 2rem;
+}
+
+.report-list-container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px; /* Espaço entre os cards */
+}
+
+.report-card {
+	display: flex;
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	overflow: hidden; /* Garante que a imagem não saia do card */
+	background-color: #fff;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.report-image {
+	width: 200px;
+	height: 150px;
+	object-fit: cover; /* Faz a imagem cobrir o espaço sem distorcer */
+}
+
+.report-content {
+	padding: 15px;
+	flex: 1; /* Faz esta parte ocupar o espaço restante */
+	display: flex;
+	flex-direction: column;
+}
+
+.report-content p {
+	flex-grow: 1; /* Faz o parágrafo ocupar o espaço disponível */
+	margin: 0 0 10px 0;
+}
+
+.report-content span {
+	font-size: 0.9rem;
+	color: #555;
+}
+
+/* Estilo para o status */
+.status-registrado {
+	color: #007bff; /* Azul */
+}
+
+
+.admin-actions {
+	margin-top: 10px;
+	display: flex;
+	gap: 10px;
+}
+
+.admin-actions button {
+	border: 1px solid #ddd;
+	background-color: #f0f0f0;
+	padding: 5px 10px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 0.8rem;
+}
+
+.admin-actions button:hover {
+	background-color: #e0e0e0;
+}
+
+.admin-actions .btn-resolved {
+	background-color: #28a745;
+	color: white;
+	border-color: #28a745;
+}
+
+.admin-actions .btn-resolved:hover {
+	background-color: #218838;
+}
+
+/* Estilos para os diferentes status */
+.status-em-verificação {
+	color: #ffc107; /* Laranja/Amarelo */
+}
+
+.status-resolvido {
+	color: #28a745; /* Verde */
+}
+
+/* Adicione este código ao final do seu HomePage.css */
+
+.map-section {
+	margin-bottom: 2rem;
+}
+
+.map-view {
+	height: 450px;
+	width: 100%;
+	border-radius: 12px;
+	box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.popup-content {
+	max-width: 200px;
+}
+
+.popup-image {
+	width: 100%;
+	height: auto;
+	border-radius: 4px;
+	margin-bottom: 5px;
+}
+
+.popup-content p {
+	margin: 0;
+	font-size: 0.9rem;
+}
+
+.section-divider {
+	border: none;
+	border-top: 1px solid #e0e0e0;
+	margin: 2rem 0;
+}
+
+/* Adicione este código ao final do seu HomePage.css */
+
+.recenter-button {
+	position: absolute;
+	top: 80px; /* Posição a partir do topo */
+	left: 10px; /* Posição a partir da esquerda */
+	z-index: 1000; /* Garante que fique acima das camadas do mapa */
+	background-color: white;
+	color: #333;
+	border: 2px solid rgba(0,0,0,0.2);
+	border-radius: 4px;
+	padding: 8px 12px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	cursor: pointer;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+}
+
+.recenter-button:hover {
+	background-color: #f4f4f4;
+}
+
+.report-content-full {
+	padding: 15px;
+	width: 100%; /* Ocupa toda a largura do card */
+	display: flex;
+	flex-direction: column;
+}
