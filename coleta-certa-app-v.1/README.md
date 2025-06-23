@@ -6,9 +6,9 @@
 
 ## 📜 Sobre o Projeto
 
-[cite_start]O "Coleta Certa" é um protótipo de aplicação web responsiva desenvolvido como trabalho final para a disciplina de **ITS093 - Tópicos em Programação Avançada** da Universidade Federal do Amazonas (UFAM).
+[cite_start] O "Coleta Certa" é um protótipo de aplicação web responsiva desenvolvido como trabalho final para a disciplina de **ITS093 - Tópicos em Programação Avançada** da Universidade Federal do Amazonas (UFAM).
 
-[cite_start]O projeto busca resolver um problema cívico real: a falha na comunicação entre cidadãos e os órgãos responsáveis pela coleta de lixo urbano. A plataforma permite que qualquer pessoa denuncie pontos de acúmulo de lixo ou descarte irregular de forma rápida e geolocalizada, transformando moradores em fiscais ativos da limpeza de sua cidade.
+[cite_start] O projeto busca resolver um problema cívico real: a falha na comunicação entre cidadãos e os órgãos responsáveis pela coleta de lixo urbano. A plataforma permite que qualquer pessoa denuncie pontos de acúmulo de lixo ou descarte irregular de forma rápida e geolocalizada, transformando moradores em fiscais ativos da limpeza de sua cidade.
 
 ## ✨ Funcionalidades Implementadas
 
@@ -27,13 +27,13 @@ Este projeto foi construído com uma arquitetura moderna baseada em JavaScript.
     * **Vite:** Ferramenta de desenvolvimento de última geração para um ambiente rápido e otimizado.
     * **Leaflet & React-Leaflet:** Para a criação e interatividade dos mapas.
 * **Backend (Serverless):**
-    * [cite_start]**Firebase (Google Cloud):** Utilizado como plataforma de nuvem para o backend.
+    * [cite_start] **Firebase (Google Cloud):** Utilizado como plataforma de nuvem para o backend.
     * **Firestore:** Banco de dados NoSQL para armazenamento em tempo real de todas as denúncias.
 * **Estilização:**
     * **CSS puro:** Para estilização customizada dos componentes.
     * **Google Fonts:** Para uma tipografia limpa e profissional.
 
-[cite_start]_**Observação:** A funcionalidade de upload de imagens para o Firebase Storage foi planejada, mas desativada devido a limitações do plano gratuito do Firebase que exigiam faturamento para a configuração de CORS._
+[cite_start] _**Observação:** A funcionalidade de upload de imagens para o Firebase Storage foi planejada, mas desativada devido a limitações do plano gratuito do Firebase que exigiam faturamento para a configuração de CORS._
 
 ## 🚀 Começando
 
@@ -46,7 +46,7 @@ Você precisa ter o Node.js e o npm (que vem com o Node) instalados em seu compu
 
 ### Instalação e Configuração
 
-1.  [cite_start]**Clone o repositório** (se estiver usando Git, conforme recomendado no trabalho ):
+1.  [cite_start] **Clone o repositório** (se estiver usando Git, conforme recomendado no trabalho ):
     ```sh
     git clone [https://github.com/Viktor-vask/coleta-certa-app-v.1.git](https://github.com/Viktor-vask/coleta-certa-final.git)
     ```
